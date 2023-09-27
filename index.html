@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <!-- navbar section start -->
+  
+<section>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-lg">
+    <div class="container">
+      <a class="navbar-brand" href="">SR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ABOUT">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#PRODCUTS">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#SERCICS">SERVICS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#CONTACT">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-1" type="text" placeholder="Search">
+          <button class="btn btn-info" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<!-- navbar section end -->
+
+
+  <div class="header">
+    <!--Content before waves-->
+    <div class="inner-header flex">
+      <!--Just the logo.. Don't mind this-->
+      <pre class="text-body-emphasis"> SR GROUP </pre>
+      <h3>25% off on selected neural culture product!</h3>
+    </div>
+
+    <div class="hed">
+      <p class="text-light">25% Off On All Products</p>
+    </div>
+
+    <button class="btn btn-outline-light"> Shop Now</button><br>
+
+    <!--Waves Container-->
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves end-->
+
+  </div>
+  <!--Header ends-->
+
+  <!--Content starts-->
+  <div class="content flex">
+    <h4 class="card-title">SR GROUP</h4>
+  </div>
+  <!--Content ends-->
+
+
+
+  <!-- product section start -->
+
+  <div class="container py-3" id="PRODCUTS">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-8 text-center text-lg-start mb-3 mb-lg-0">
+        <span class="h3">SR Group Products</span>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-center text-lg-end mb-3 mb-lg-0">
+        <div class="btn-group" role="group" aria-label="Product Toggle">
+          <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#productcat" role="button" aria-expanded="false"
+            aria-controls="productcat">Quality</a>
+          <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#products" role="button" aria-expanded="true"
+            aria-controls="products">Products</a>
+          <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false"
+            data-bs-target=".multi-collapse" aria-controls="productcat products">Toggle</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="productcat" class="collapse multi-collapse">
+    <div class="container py-5">
+      <div class="row pb-3">
+        <div class="col-12 text-start">
+          <h2 class="h4">Our Product</h2>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-lg-4 g-3">
+        <div class="col">
+          <div class="card card-product-category h-100 mb-2">
+            <div class="card-body">
+              <h3 class="card-title">Quality-1</h3>
+              <p class="card-text">Quality of design : The product must be designed as per the consumers' needs and
+                high-quality standards.
+                Quality conformance : The finished products must conform (match) to the product design specifications.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-product-category h-100 mb-2">
+            <div class="card-body">
+              <h3 class="card-title">Quality-2</h3>
+              <p class="card-text">
+                Reliability : The products must be reliable or dependable. They must not easily breakdown or become
+                non-functional. They must also not require frequent repairs. They must remain operational for a
+                satisfactory longer-time to be called as a reliable one.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-product-category h-100 mb-2">
+            <div class="card-body">
+              <h3 class="card-title">Quality-3</h3>
+              <p class="card-text">
+                Safety : The finished product must be safe for use and/or handling. It must not harm consumers in any
+                way.
+                Proper storage : The product must be packed and stored properly. Its quality must be maintained until
+                its expiry date
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-product-category h-100 mb-2">
+            <div class="card-body">
+              <h3 class="card-title">Quality-4</h3>
+              <p class="card-text">
+                Before production, company must find out the needs of the consumers. These needs must be included in the product design specifications. So, the company must design its product as per the needs of the consumers.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="products" class="collapse multi-collapse show">
+    <div class="container py-5">
+      <div class="row pb-3">
+        <div class="col-12 text-start">
+          <h2 class="h4">Latest Products</h2>
+        </div>
+      </div>
+      <div class="products row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 g-lg-3">
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img class="card-img-top"
+              src='https://images.unsplash.com/photo-1556774687-0e2fdd0116c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYwNTk2MQ&ixlib=rb-1.2.1&q=80&w=400'
+              alt=''>
+            <div class="card-body h-100">
+              <h2 class="card-title">Product 1</h2>
+              <p class="card-text">
+                Product quality describes a product's capability to meet user standards
+              </p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">657.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img class="card-img-top"
+              src='https://images.unsplash.com/photo-1616736381029-c403eeda10b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYwNTk2MQ&ixlib=rb-1.2.1&q=80&w=400'
+              alt=''>
+            <div class="card-body">
+              <h2 class="card-title">Product 2</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">657.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img class="card-img-top"
+              src='https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYwNjU1Nw&ixlib=rb-1.2.1&q=80&w=400'
+              alt=''>
+            <div class="card-body" style="padding-bottom: 0px;">
+              <h2 class="card-title">Product 3</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">600.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1545289414-1c3cb1c06238?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYwNjU1Nw&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 4</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">557.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1512990414788-d97cb4a25db3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYwNjU1Nw&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 5</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">857.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1533681018184-68bd1d883b97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDE2OA&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 6</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">357.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1609011809547-fec587101c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDI1Ng&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 7</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">857.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDI1Ng&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 8</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">657.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1608231387042-66d1773070a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDI1Ng&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 9</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">957.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDg2NQ&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 10</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">757.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1539185441755-769473a23570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDU2NQ&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 11</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">357.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="product col">
+          <div class="card card-product shadow-sm h-100">
+            <img
+              src='https://images.unsplash.com/photo-1542291026-7eec264c27ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzODYxMDgwOQ&ixlib=rb-1.2.1&q=80&w=400'
+              alt='' class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Product 12</h2>
+              <p class="card-text">Product quality describes a product's capability to meet user standards</p>
+              <a href="#">
+                <p class="price"><span class="currency">tk. </span><span class="amount">360.000</span></p>
+              </a>
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- servics section start -->
+
+
+
+<!-- Services Section -->
+<section class="bg-dark-subtle" id="services">
+  <div class="container bg-dark-subtle " id="ABOUT">
+      <div class="row mb-3">
+          <div class="col-lg-12 text-center mt-5 mb-5">
+              <h2 class="section-heading">Services</h2>
+              <h6 class="section-subheading text-muted">SR-GROUP OUR SERVICS</h6>
+          </div>
+      </div>
+      <div class="row text-center mb-5">
+          <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="glyphicon glyphicon-tree-conifer"></i>
+              </span>
+              <h4 class="service-heading">Limited Customer Service</h4>
+              <p>Limited Customer Service: If you shop online for a computer, you cannot simply ask an employee to demonstrate a particular model's features in person. And although some websites let you chat online with a staff member, this is not a typical practice.</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="glyphicon glyphicon-heart"></i>
+              </span>
+              <h4 class="service-heading">Lack of Instant Gratification:</h4>
+              <p>Lack of Instant Gratification: When you buy an item online, you must wait for it to be shipped to your home or office. However, e-tailers like Amazon make the waiting game a little bit less painful by offering same-day delivery as a premium option for select products.</p>
+          </div>
+          <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="glyphicon glyphicon-tint"></i>
+              </span>
+              <h4 class="service-heading">Higher Competition:</h4>
+              <p>Higher Competition: Although the low barrier to entry regarding low cost is an advantage, this means other competitors can easily enter the market. E-commerce companies must have mindful marketing strategies and remain</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<section class="bg-secondary" id="SERCICS">
+  <div class="container py-3" id="CONTACT">
+    <div class="row">
+      <div class="col-12-sm text-info">
+        <div class="footer">
+          <p>Copyright 2023.All reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</body>
+
+</html>
